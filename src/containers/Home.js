@@ -43,7 +43,7 @@ class Home extends React.Component {
       <div className='content-home' style={styles.contentHome}>
         <div className='home-bg' style={styles.homeBg}>
           <div className='home-inner' style={styles.inner}>
-            <h1 style={styles.h1}>HI,I'M <span style={styles.span}>MENGMENG</span></h1>
+            <h1 style={styles.h1}>HI,I'M <span style={styles.span}>HAOHANGZHOU</span></h1>
             <p>WEB DEVELOPER</p>
             <Link to='/about' style={styles.a} className='home-active'>HIRE ME</Link>
           </div>

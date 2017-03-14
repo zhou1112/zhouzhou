@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 function getWorkCard(){
-  let address = `https://raw.githubusercontent.com/mengmeng183/demodata/master/WorkCard.json?${Math.random()}`
+  let address = `https://raw.githubusercontent.com/zhou1112/zhoudata/master/WorkCard.json?${Math.random()}`
   return axios.get(address)
     .then((res) => (
       { getData:res.data }
@@ -12,7 +12,7 @@ function getWorkCard(){
 }
 
 function getBlogCard(){
-  let address = `https://raw.githubusercontent.com/mengmeng183/demodata/master/BlogCard.json?${Math.random()}`
+  let address = `https://raw.githubusercontent.com/zhou1112/zhoudata/master/BlogCard.json?${Math.random()}`
   return axios.get(address)
     .then((res) => (
       { getData:res.data }
@@ -23,7 +23,7 @@ function getBlogCard(){
 }
 
 function getBlogMd(add){
-  let address = `https://raw.githubusercontent.com/mengmeng183/demodata/master/Blog/${add}.md`
+  let address = `https://raw.githubusercontent.com/zhou1112/zhoudata/master/Blog/${add}.md`
   return axios.get(address)
     .then((res) => (
       { getData:res.data }
@@ -34,7 +34,7 @@ function getBlogMd(add){
 }
 
 function getWorkMd(add){
-  let address = `https://raw.githubusercontent.com/mengmeng183/demodata/master/Work/${add}.md`
+  let address = `https://raw.githubusercontent.com/zhou1112/zhoudata/master/Work/${add}.md`
   return axios.get(address)
     .then((res) => (
       { getData:res.data }

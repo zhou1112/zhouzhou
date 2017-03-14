@@ -12,7 +12,8 @@ class BlogCard extends React.Component {
         marginTop:'20px'
       },
       indexBox:{
-        backgroundColor:'#00BCD4',
+        backgroundColor:'black',
+        opacity:'.7',
         height:'100px',
         borderRadius:'10px 10px 0 0',
         display:'flex',

@@ -10,7 +10,8 @@ class Echarts extends React.Component {
         text:'我的技能展示',
         left:'center',
         target:'blank',
-        link:'http://zhou1112.github.io/zhouzhou',
+        // link:'http://zhou1112.github.io/zhouzhou',
+        link:'http://zhou1112.github.io',
         textStyle:{
           color:'#2196F3'
         }
